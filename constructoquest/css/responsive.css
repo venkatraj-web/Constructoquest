@@ -1,0 +1,60 @@
+@media screen and (max-width: 1024px) {
+	.search_box{
+		left: 25%;
+	}
+	.panelists_content img {
+		top: -90px;
+	    left: 40px;
+	    width: 250px;
+	}
+}
+@media screen and (max-width: 768px) {
+	nav{
+		height: 65px;
+	}
+	.search_box{
+		left: 10%;
+		width: 150px;
+	}
+	.search_box .btn{
+		top: 4px;
+		right: -56%;
+	}
+	.Ellipse{
+		display: none;
+	}
+	.brand-logo img {
+	    width: 90px;
+	    background: white;
+	    border-radius: 10px;
+	}
+	.panelists_content img {
+	    width: 200px;
+	}
+}
+@media screen and (max-width: 540px) {
+	nav{
+		height: 56px;
+	}
+	.brand-logo img {
+	    width: 80px;
+	}
+	.panelists_details{
+		padding: 0.5rem 2.5rem;
+	}
+	.panelists_content{
+		text-align: center;
+	}
+	.panelists_content img {
+		padding-top: 0.5rem;
+		position: unset;
+	    width: 150px;
+	}
+	.owl-carousel{
+		padding: 0 1.5rem;
+	}
+
+	footer{
+		padding-left: 1rem;
+	}
+}
